@@ -1,0 +1,26 @@
+
+<h2>Utilizar notas de prensa</h2>
+
+<ul class="list-group">
+    @foreach (var medio in medios)
+    {
+        <li class="list-group-item">
+            @medio
+        </li>
+    }
+</ul>
+
+<p> @a</p>
+
+@code {
+
+    [Parameter]
+    public string? a  {get; set;}
+    private List<String> medios = new()
+    {
+        "Prensa Online",
+        "Blogs",
+        "Publicaciones de interes",
+        "Revistas Online, etc"
+    };
+}
