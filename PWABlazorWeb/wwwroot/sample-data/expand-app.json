@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Utilizar notas de prensa",
+        "resumen": "Realizar un listado con todos los medios relacionados con este sector, por ejemplo:",
+        "lista": [],
+        "imagen": "images/prensa.jpg",
+        "items": ["Prensa online", "Blogs", "Publicaciones de interés", "Revistas online"]
+    },
+    {
+        "titulo": "Correo electronico",
+        "resumen": "Anunciar su aplicación por medio de email a posibles clientes, tenga en cuenta la privacidad de los datos",
+        "lista": [],
+        "imagen": "images/correo.png"
+    },
+    {
+        "titulo": "Marketing viral",
+        "resumen": "Viralizar tu aplicación para conseguir descargas es esencial. Para eso puedes:",
+        "lista": [
+            {
+                "subtitulo": "Habla sobre la App",
+                "contenido": "Cuentale a todo el mundo que conoces que se ha lanzado una nueva aplicación"
+            },
+            {
+                "subtitulo": "Usa las redes sociales",
+                "contenido": "Es importante que la App incluya los botones de share más importantes del mercado, como Facebook, Twitter, etc.."
+            }
+        ],
+        "imagen": ""
+    },
+    {
+        "titulo": "Publicidad",
+        "resumen": "Una de las maneras mas clasicas para dar a conocer un producto o servicio, en este caso puedes:",
+        "lista": [
+            {
+                "subtitulo": "Publicidad convencional",
+                "contenido": "Propaganda en linea, articulos de tecnolgia, etc..."
+            },
+            {
+                "subtitulo": "Dentro de otras App",
+                "contenido": "Hacer publicidad de nuestra App en otra App puede ser una opcion más sencilla, debido a que otras personas que utilicen otras aplicaicones pueden ver directemente nuestra publicidad"
+            }
+        ],
+        "imagen": ""
+    },
+    {
+        "titulo": "Integrar con otras aplicaciones",
+        "resumen": "Al desarrollar aplicaiones que sirvan como complemento de otras App mayormente usadas, será mas visible en las busquedas",
+        "lista": [
+            {
+                "subtitulo": "",
+                "contenido": "Aunque nuestra App no sea un complemento de otras, siempre es buena idea integrar alguna funcionalidad"
+            }
+        ],
+        "imagen": ""
+    },
+    {
+        "titulo": "Sitio web de la aplicacion",
+        "resumen": "Crear alguna web, que sirva como descripción de nuestra aplicaicón, da a conocer los detalles de la App, caracteristicas y beneficios, ademas puede montar contenido multimedia que ayude a dar mas impacto.",
+        "lista": [],
+        "imagen": "images/web.png"
+    }
+]

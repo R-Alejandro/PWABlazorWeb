@@ -82,3 +82,12 @@ main {
         padding-right: 1.5rem !important;
     }
 }
+
+.content{
+    height: 35rem;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

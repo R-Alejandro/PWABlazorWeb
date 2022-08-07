@@ -1,26 +1,82 @@
+@inject HttpClient Http
 
-<h2>Utilizar notas de prensa</h2>
+<div class="row">
+    <div class="col-10">
+        <br>
+        <p style="font-size: 1.3rem;">
+            El gran mercado de las aplicaciones moviles puede ser bastante extenso, es por eso que a continuacion te 
+            damos unos consejos que pueden ayudarte a que tu App gane mas notoriedad en las plataformas
+        </p>
+        <br>
+    </div>
+    <div class="col-1"></div>
+</div>
 
-<ul class="list-group">
-    @foreach (var medio in medios)
-    {
-        <li class="list-group-item">
-            @medio
-        </li>
-    }
-</ul>
+@if (tips == null)
+{
+    <h3>Renderizando contenido... </h3>
+}else
+{   
+    <div class="site-container">
+        <div class="article-container">
+            @foreach (var item in tips)
+            {
+                <div class="article-card">
+                    <img src=@item.imagen class="article-image">
+                    <div class="article-content">
+                        <h2 class="card-title">@item.titulo</h2>
+                        <p class="card-info">@item.resumen</p>
+                        @if (@item.lista != null)
+                        {
+                            @foreach (var sub in @item.lista)
+                            {
+                                <br>
+                                <h2 class="card-title subtitle">@sub.subtitulo</h2>
+                                <p>@sub.contenido</p>
+                            }
+                        }
+                        @if (@item.items != null){
+                            <ul>
+                                @foreach (var list in @item.items)
+                                {
+                                    <li>@list</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>    
+            }
+        </div>
+    </div>
+}
 
-<p> @a</p>
 
 @code {
 
-    [Parameter]
-    public string? a  {get; set;}
-    private List<String> medios = new()
+    private TipsDto[]? tips;
+
+    protected override async Task OnInitializedAsync()
     {
-        "Prensa Online",
-        "Blogs",
-        "Publicaciones de interes",
-        "Revistas Online, etc"
-    };
+        tips = await Http.GetFromJsonAsync<TipsDto[]>("sample-data/expand-app.json");
+    }
+
+    public class TipsDto
+    {
+        public string? titulo { get; set; }
+
+        public string? resumen { get; set; }
+
+        public SubTitleDto[]? lista { get; set; }
+
+        public string? imagen { get; set; }
+        public string[]? items { get; set;}
+    }
+
+    public class SubTitleDto
+    {
+        public string? subtitulo { get; set; }
+
+        public string? contenido { get; set; }
+    }
+    
 }
