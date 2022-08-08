@@ -1,0 +1,27 @@
+[
+    {
+        "Titulo": "Un recuento de las cifras",
+        "Contenido": "Datos estadísticos de Statista registran 178 mil millones de descargas de Apps móviles en 2017 y 205 mil millones en 2018. TechCrunch, por su parte, apuntó más de 218 mil millones en 2020 y proyecta 285 mil millones de descargas de aplicaciones móviles para 2022.",
+        "Imagen": ""
+    },
+    {
+        "Titulo": "¿Cuales son las aplicaciones mas descargadas?",
+        "Contenido": "Los juegos son las aplicaciones móviles más descargadas en la App Store de Apple. En agosto de 2020, la tienda reportó que 21,86% de sus descargas fueron de juegos, mientras las empresariales apenas superaron 10%, según el informe de PocketGamer.biz.",
+        "Imagen": ""
+    },
+    {
+        "Titulo": "",
+        "Contenido": "App Annie indica que en el segundo trimestre de 2020 fueron descargados semanalmente más de mil millones de juegos móviles en todo el mundo, mientras que Sensor Tower apunta 24 mil millones de descargas de aplicaciones financieras durante ese mismo lapso de tiempo. Según el sitio web Airnow, Among Us para Android, tuvo 43,53 millones de descargas a partir de septiembre de 2020.",
+        "Imagen": ""
+    },
+    {
+        "Titulo": "Notable expansión de apps de negocios y marketing",
+        "Contenido": "La descarga de aplicaciones móviles empresariales registró un crecimiento de 90% con respecto al promedio semanal de 2019, durante la semana del 14 al 21 de marzo 2020. La categoría empresarial de apps para iOS y Android, superó los 62 millones de descargas en apenas 7 días, el registro más impactante hasta el momento. La semana anterior había reportado un incremento de 45% en las descargas de las aplicaciones empresariales disponibles en todas las tiendas.",
+        "Imagen": ""
+    },
+    {
+        "Titulo": "Uso promedio de internet en 2020",
+        "Contenido": "Sobre el tiempo de uso de redes sociales durante el año de pandemia, Business of Apps apunta que el promedio global diario fue de 2 horas y 16 minutos. Y, en relación al tiempo global invertido por los usuarios de aplicaciones móviles para Android durante el primer semestre de 2020, App Annie reporta que, en global, gastaron 1,6 billones de horas usando dispositivos móviles.",
+        "Imagen": "images/estadistica.jpg"
+    }
+]

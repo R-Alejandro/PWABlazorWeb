@@ -1,0 +1,26 @@
+@using PWABlazorWeb.Shared
+
+<div class="row">
+    @if (Articulo != null)
+    {
+        <div class="col-8">
+            <h3>@Articulo.Titulo</h3>
+            <p style="font-size: 18px;">@Articulo.Contenido</p>
+        </div>
+        <div class="col">
+            @if(Articulo.Imagen != null)
+            {
+                <img src=@Articulo.Imagen style="width: 24rem;">
+            }
+        </div>
+    }else{
+        <p>Renderizando contenido...</p>
+    }
+
+</div>
+
+@code {
+    [Parameter]
+    public ArticleDto? Articulo { get; set;}
+
+}
