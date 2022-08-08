@@ -1,6 +1,22 @@
+@inject HttpClient Http
 @page "/datos-app"
 @using PWABlazorWeb.Componentes
 
 <div class="container">
-    <DatosApp></DatosApp>
+    @if (articulo != null)
+    {
+        <ArticleBase Articulo="articulo[0]"></ArticleBase>
+        <ArticleBase Articulo="articulo[0]"></ArticleBase>
+        <ArticleBase Articulo="articulo[0]"></ArticleBase>
+    }
+    
 </div>
+
+@code{
+    public ArticleDto[]? articulo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        articulo = await Http.GetFromJsonAsync<ArticleDto[]>("sample-data/articles.json");
+    }
+}
