@@ -3,17 +3,14 @@
 <div class="row">
     @if (Articulo != null)
     {
-        <h1>Datos sobre descargas y uso de aplicaciones</h1>
-        <hr> <br>
         <div class="col-8">
             <h3>@Articulo.Titulo</h3>
-            <hr>
             <p style="font-size: 18px;">@Articulo.Contenido</p>
         </div>
-        <div class="col-3">
+        <div class="col">
             @if(Articulo.Imagen != null)
             {
-                <img src=@Articulo.Imagen>
+                <img src=@Articulo.Imagen style="width: 24rem;">
             }
         </div>
     }else{
