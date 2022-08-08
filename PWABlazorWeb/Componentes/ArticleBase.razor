@@ -10,7 +10,7 @@
         <div class="col">
             @if(Articulo.Imagen != null)
             {
-                <img src=@Articulo.Imagen style="width: 24rem;">
+                <img src=@Articulo.Imagen class="zoom">
             }
         </div>
     }else{
@@ -18,6 +18,7 @@
     }
 
 </div>
+
 
 @code {
     [Parameter]
