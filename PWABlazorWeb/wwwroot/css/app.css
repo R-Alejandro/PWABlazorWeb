@@ -82,11 +82,11 @@ body {
 }
 
 .wave {
-    background: rgb(242 98 151 / 25%);
+    background: rgba(153, 88, 222, 0.25);
     border-radius: 1000% 1000% 0 0;
     position: fixed;
     width: 200%;
-    height: 12em;
+    height: 6em;
     animation: wave 10s -3s linear infinite;
     transform: translate3d(0, 0, 0);
     opacity: 0.8;
