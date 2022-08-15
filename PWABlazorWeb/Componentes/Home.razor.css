@@ -1,0 +1,36 @@
+
+.row > img {
+    border-radius: 15px;
+    height: 350px;
+    width: 600px;
+    border: 1px solid #00000033;
+}
+div.col-5:nth-child(2) {
+    /* background-color: red; */
+    margin: 0 0 0 70px;
+}
+img:nth-child(2) {
+    margin: 50px 0 50px 100px;
+}
+.col-5>p {
+    font-size: 25px;
+}
+p::first-letter {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* reglas de ayuda para maquetado */
+/* .home-container{
+    outline: 1px solid red;
+}
+.container {
+    outline: 1px solid red;
+} */
