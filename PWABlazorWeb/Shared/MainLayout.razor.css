@@ -84,10 +84,19 @@ main {
 }
 
 .content{
-    height: 39rem;
+    height: 85vh;
     overflow: scroll;
+    
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.ghlink:hover {
+    text-decoration: none !important;
+}
+
+.ghicon {
+    margin: 0 5px 0 0;
 }
