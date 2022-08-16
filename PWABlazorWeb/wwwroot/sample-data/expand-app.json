@@ -7,7 +7,7 @@
         "items": ["Prensa online", "Blogs", "Publicaciones de interés", "Revistas online"]
     },
     {
-        "titulo": "Correo electronico",
+        "titulo": "Correo electrónico",
         "resumen": "Anunciar su aplicación por medio de email a posibles clientes, tenga en cuenta la privacidad de los datos",
         "lista": [],
         "imagen": "images/correo.png"
@@ -18,7 +18,7 @@
         "lista": [
             {
                 "subtitulo": "Habla sobre la App",
-                "contenido": "Cuentale a todo el mundo que conoces que se ha lanzado una nueva aplicación"
+                "contenido": "Cuéntale a todo el mundo que conoces que se ha lanzado una nueva aplicación"
             },
             {
                 "subtitulo": "Usa las redes sociales",
@@ -29,22 +29,22 @@
     },
     {
         "titulo": "Publicidad",
-        "resumen": "Una de las maneras mas clasicas para dar a conocer un producto o servicio, en este caso puedes:",
+        "resumen": "Una de las maneras más clásicas para dar a conocer un producto o servicio, en este caso puedes:",
         "lista": [
             {
                 "subtitulo": "Publicidad convencional",
-                "contenido": "Propaganda en linea, articulos de tecnolgia, etc..."
+                "contenido": "Propaganda en línea, artículos de tecnolgía, etc..."
             },
             {
                 "subtitulo": "Dentro de otras App",
-                "contenido": "Hacer publicidad de nuestra App en otra App puede ser una opcion más sencilla, debido a que otras personas que utilicen otras aplicaicones pueden ver directemente nuestra publicidad"
+                "contenido": "Hacer publicidad de nuestra App en otra App puede ser una opción más sencilla, debido a que otras personas que utilicen otras aplicaciones pueden ver directamente nuestra publicidad"
             }
         ],
         "imagen": ""
     },
     {
         "titulo": "Integrar con otras aplicaciones",
-        "resumen": "Al desarrollar aplicaiones que sirvan como complemento de otras App mayormente usadas, será mas visible en las busquedas",
+        "resumen": "Al desarrollar aplicaciones que sirvan como complemento de otras App mayormente usadas, será más visible en las búsquedas",
         "lista": [
             {
                 "subtitulo": "",
@@ -54,8 +54,8 @@
         "imagen": ""
     },
     {
-        "titulo": "Sitio web de la aplicacion",
-        "resumen": "Crear alguna web, que sirva como descripción de nuestra aplicaicón, da a conocer los detalles de la App, caracteristicas y beneficios, ademas puede montar contenido multimedia que ayude a dar mas impacto.",
+        "titulo": "Sitio web de la aplicación",
+        "resumen": "Crear alguna web, que sirva como descripción de nuestra aplicacicón, da a conocer los detalles de la App, características y beneficios, además puede montar contenido multimedia que ayude a dar más impacto.",
         "lista": [],
         "imagen": "images/web.png"
     }
